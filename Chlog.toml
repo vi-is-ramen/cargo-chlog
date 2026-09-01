@@ -1,4 +1,6 @@
-[commits.types]
+# Chlog configuration
+
+[commits.types] # Allowed commit types
 feat = "Feature"
 fix = "Fix"
 docs = "Documentation"
@@ -10,16 +12,12 @@ chore = "Chore"
 build = "Build"
 ci = "CI"
 
-[log]
-include-commit-url = true
-include-commit-hash = true
-separate-scope-lists = true
+[log] # Changelog generation configuration.
+include_commit_url = true # Include commit URLs in changelog
+include_commit_hash = true # Include commit hashes in changelog
+separate_scope_lists = true # Separate change lists by scope
+collect_thanks = true # Collect and display contributors/thanks
+thanks_subtitle = "Thanks to" # thanks list subtitle text
 
-[[commits.ignore]]
-brief.regex = r"[Bb]ump version.*?"
-# type
-# scope
-# footer.present.regex/exact
-# footer.absent.regex/exact
-# body.match.regex/exact
-# body.find.regex/exact
+[[commits.ignore]] # define which commits to ignore
+brief.regex = '[Bb]ump version.*?' # ignore commits with "bump version" in the brief
