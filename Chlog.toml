@@ -21,3 +21,6 @@ thanks_subtitle = "Authors" # thanks list subtitle text
 
 [[commits.ignore]] # define which commits to ignore
 brief.regex = '[Bb]ump version.*?' # ignore commits with "bump version" in the brief
+
+[[commits.ignore]]
+brief.prefix = 'HIDDEN:'
