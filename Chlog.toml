@@ -1,0 +1,25 @@
+[commits.types]
+feat = "Feature"
+fix = "Fix"
+docs = "Documentation"
+style = "Style"
+refactor = "Refactoring"
+perf = "Performance"
+test = "Test"
+chore = "Chore"
+build = "Build"
+ci = "CI"
+
+[log]
+include-commit-url = true
+include-commit-hash = true
+separate-scope-lists = true
+
+[[commits.ignore]]
+brief.regex = r"[Bb]ump version.*?"
+# type
+# scope
+# footer.present.regex/exact
+# footer.absent.regex/exact
+# body.match.regex/exact
+# body.find.regex/exact
