@@ -1,20 +1,20 @@
 # Chlog configuration
 
 [commits.types] # Allowed commit types
-feat = "Feature"
-fix = "Fix"
+feat = "Features"
+fix = "Fixes"
 docs = "Documentation"
 style = "Style"
 refactor = "Refactoring"
 perf = "Performance"
-test = "Test"
+test = "Tests"
 chore = "Chore"
 build = "Build"
 ci = "CI"
 
 [log] # Changelog generation configuration.
-include_commit_url = true # Include commit URLs in changelog
-include_commit_hash = true # Include commit hashes in changelog
+include_commit_url = false # Include commit URLs in changelog
+include_commit_hash = false # Include commit hashes in changelog
 # separate_scope_lists = true # Separate change lists by scope
 collect_thanks = true # Collect and display contributors/thanks
 thanks_subtitle = "Authors" # thanks list subtitle text
