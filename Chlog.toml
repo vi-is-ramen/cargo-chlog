@@ -15,9 +15,9 @@ ci = "CI"
 [log] # Changelog generation configuration.
 include_commit_url = true # Include commit URLs in changelog
 include_commit_hash = true # Include commit hashes in changelog
-separate_scope_lists = true # Separate change lists by scope
+# separate_scope_lists = true # Separate change lists by scope
 collect_thanks = true # Collect and display contributors/thanks
-thanks_subtitle = "Thanks to" # thanks list subtitle text
+thanks_subtitle = "Authors" # thanks list subtitle text
 
 [[commits.ignore]] # define which commits to ignore
 brief.regex = '[Bb]ump version.*?' # ignore commits with "bump version" in the brief
